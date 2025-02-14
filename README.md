@@ -4,4 +4,4 @@ ExercisingGrandma is inspired by Subway Surfers. Watch the demo here: [Youtube](
 1. Clone this repository.
 2. Follow the guide to install [THREE.js library and vite (Option 1)](https://threejs.org/docs/index.html#manual/en/introduction/Installation) then run.
 ## Note
-The code comments in the files of this repository is Vietnamese.
+The code comments in the files of this repository are in Vietnamese.
