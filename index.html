@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<meta charset="utf-8">
+		<title>Exercising grandma</title>
+	</head>
+	<body>
+		<div id="heartDisplay" style="position: absolute; top: 10px; left: 10px; font-size: 40px; color: white;">
+			Heart: 0
+		</div>
+		<div id="menu">
+			<button id="startButton">Start Game</button>
+			<button id="playAgainButton" style="display: none;">Play Again</button>
+		</div>
+		<div id="countdown" style="
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 200px;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: rgb(0, 0, 0);
+			text-shadow: 2px 2px 5px rgb(255, 255, 255);
+			display: none;
+			z-index: 1000;">
+			3
+		</div>
+		<script type="module" src="main.js"></script>
+		<audio id="jumpSound" src="./static/jump.mp3" preload="auto"></audio>
+		<audio id="trippedSound" src="./static/tripped.mp3" preload="auto"></audio>
+		<audio id="deathSound" src="./static/death.mp3" preload="auto"></audio>
+	</body>
+</html>
+
